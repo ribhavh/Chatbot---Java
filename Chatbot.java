@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 
 public class Chatbot {
-	private static String filename = "/Users/RibhavHora/Documents/WARC201709_wid.txt";
+	private static String filename = "WARC201709_wid.txt";
 	private static Scanner sc;
 	private static ArrayList<Integer> corpus = new ArrayList<Integer>();
 
