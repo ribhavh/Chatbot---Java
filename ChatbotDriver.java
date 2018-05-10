@@ -9,7 +9,7 @@ public class ChatbotDriver {
 	private static List<String> vocabulary;
 
 	private static void readVocabulary() {
-		File file = new File("/Users/RibhavHora/Documents/vocabulary.txt");
+		File file = new File("vocabulary.txt");
 		vocabulary = new ArrayList<String>();
 		vocabulary.add("OOV"); // 0 -> OOV
 
